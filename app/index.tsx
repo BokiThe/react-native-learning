@@ -40,6 +40,16 @@ export default function Home() {
         <ThemedText >Go to Contact Page</ThemedText>
       </Link>
 
+    <Spacer height={20}/>
+      <Link href="/login" style={[styles.link, { borderBottomColor: theme.text }]}>
+        <ThemedText>Go to Login Page</ThemedText>
+      </Link>
+    <Spacer height={20}/>
+
+      <Link href="/register" style={[styles.link, { borderBottomColor: theme.text }]}>
+        <ThemedText>Go to Register Page</ThemedText>
+      </Link>
+
     </ThemedView>
   );
 }
